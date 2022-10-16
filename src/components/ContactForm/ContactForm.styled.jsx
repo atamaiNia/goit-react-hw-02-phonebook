@@ -9,7 +9,7 @@ export const FormikForm = styled(Form)`
   margin-right: auto;
   margin-bottom: 40px;
   border: 1px solid #2a1301;
-  padding: 20px 10px;
+  padding: 0px 10px 40px 10px;
 `;
 export const FormikLabel = styled.label`
   margin-top: 40px;
