@@ -20,9 +20,16 @@ export const BtnDelete = styled.button`
   border: none;
   border-radius: 30px;
   padding: 8px;
-  margin-left: auto;
-  margin-right: auto;
   color: #f8f2ea;
+  font-weight: 700;
   box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px,
     rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: #5e4003;
+    background-color: white;
+  }
 `;
